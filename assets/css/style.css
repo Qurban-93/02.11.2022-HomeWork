@@ -1,0 +1,47 @@
+#accordion {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid gray;
+}
+#accordion h3 {
+  border: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+#accordion div {
+  display: none;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgb(37, 36, 36);
+}
+.main ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.main ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(37, 36, 36);
+  width: 33%;
+}
+.main ul.tabs li.current {
+  background: #888585;
+  color: #222;
+}
+.main .tab-content {
+  display: none;
+  background: #888585;
+  padding: 50px;
+}
+.main .tab-content.current {
+  display: inherit;
+}/*# sourceMappingURL=style.css.map */
