@@ -1,65 +1,31 @@
-#accordion{
-    width: 50%;
-    margin: 20px auto;
-    border: 1px solid gray;
-    
-    h3{
-        border: 1px solid gray;
-        margin: 0;
-        padding: 20px;
-    }
-
-    div{
-       display: none;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
 }
 
-
-.main{
-	width: 50%;
-	margin: 0 auto;
-    border: 1px solid rgb(37, 36, 36);
-
-    ul.tabs{
-        margin: 0px;
-        padding: 0px;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
+.inputs{
+    
+    input{
+        display: block;
+        padding: 10px;
+        width: 50%;
+        margin: 10px auto;
     }
-    ul.tabs li{
-        background: none;
-        color: #222;
-        display: inline-block;
-        padding: 10px 15px;
+
+    .btn{
+        display: block;
+        border-radius: 10px;
+        border: 1px solid blue;
+        padding: 15px 45px;
+        color: white;
+        background-color: #5b5be0;
+        margin: auto;
         cursor: pointer;
-        border: 1px solid  rgb(37, 36, 36);
-        width: 33%;
-        
     }
-    
-    ul.tabs li.current{
-        background: #888585;
-        color: #222;
-    }
-    
-    .tab-content{
-        display: none;
-        background: #888585;
-        padding: 50px;
-    }
-    
-    .tab-content.current{
-        display: inherit;
-    }
-
-    
 }
-
-
-
-
-
-
-
-

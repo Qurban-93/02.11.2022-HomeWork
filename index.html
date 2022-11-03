@@ -1,85 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/main.js" defer></script>
+  <title>Document</title>
 </head>
 <body>
-    <div id="accordion">
-        <h3 class="text">Section 1</h3>
-        <div class="panel">
-          <p>
-          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-          </p>
-        </div>
-        <h3 class="text">Section 2</h3>
-        <div>
-          <p>
-          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-          suscipit faucibus urna.
-          </p>
-        </div>
-        <h3 class="text">Section 3</h3>
-        <div>
-          <p>
-          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-          </p>
-          <ul>
-            <li>List item one</li>
-            <li>List item two</li>
-            <li>List item three</li>
-          </ul>
-        </div>
-        <h3 class="text">Section 4</h3>
-        <div>
-          <p>
-          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-          mauris vel est.
-          </p>
-          <p>
-          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos.
-          </p>
-        </div>
-      </div>
-    
-      <div class="main">
+  <h2 class="info">Məlumatlarınızı Daxil Edin</h2>
+  <div class="inputs">
+    <input class="name" type="text" placeholder="Adınızı daxil edin">
+    <input class="surname" type="text" placeholder="Syadınızı daxil edin">
+    <input class="age" type="number" placeholder="Yaşınızı daxil edin">
+    <button class="btn">Create User</button>
+  </div>
 
-        <ul class="tabs">
-            <li class="tab-link current" data-id="tab-1">Example 1</li>
-            <li class="tab-link" data-id="tab-2">Example 2</li>
-            <li class="tab-link" data-id="tab-3">Example 3</li>
-        </ul>
-    
-        <div id="tab-1" class="tab-content current">EMi oglu dolor sit amet consectetur adipisicing elit. Delectus, eligendi nobis nemo consequuntur commodi quae quam eveniet voluptatum officia molestias?</div>
-        <div id="tab-2" class="tab-content">Bibi oglu dolor sit, amet consectetur adipisicing elit. Autem, porro facere quam ex inventore labore debitis enim ipsum rem aspernatur.</div>
-        <div id="tab-3" class="tab-content">Xala oglu ipsum dolor sit, amet consectetur adipisicing elit. Autem, porro facere quam ex inventore labore debitis enim ipsum rem aspernatur.</div>
-    
-    </div>
+  <div id="table">
+    <table class="table table-dark d-none"></table>
+  </div>
+   
+  
 
 
-
-      
-
-
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="assets/main.js"></script>
 </body>
 </html>
